@@ -1,0 +1,755 @@
+html {
+    scroll-behavior: smooth;
+    .home {
+        background-color: transparent;
+        background-image: var(--home-background-image);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .doc-loader {
+        }
+        header {
+            .header-left-part {
+                @media (min-width: 1290px) {
+                    left: 48%;
+                }
+                .toggle-holder {
+                }
+                .site-title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    @media (min-width: 1290px) {
+                        top: 45vh;
+                    }
+                    a {
+                    }
+                    .download-btn {
+                        z-index: 5;
+                        border: none;
+                        background-color: var(
+                            --aboutRectangle-background-color
+                        );
+                        background-image: var(--btn-background-image);
+                        max-width: 4em;
+                        min-width: 4em;
+                        max-height: 4em;
+                        min-height: 4em;
+                        border-radius: 0.5em 1.5em 0.5em 1.5em;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0em 1.5em 0em 0em;
+                        transition: top 1ms ease-in-out,
+                            filter 500ms ease-in-out;
+                        box-shadow: 0 0 10px 0.2rem rgba(14, 16, 19, 0.52);
+                        &:hover {
+                            transition: filter 500ms ease-in-out;
+                            filter: brightness(140%) contrast(110%);
+                        }
+                        .download-icon {
+                            color: var(--linksHighlight-color3);
+                            filter: hue-rotate(10deg) brightness(180%)
+                                opacity(0.5);
+
+                            font-weight: 600;
+                            @media (min-width: 1290px) {
+                                transform: rotate(90deg);
+                            }
+                            &::after {
+                            }
+                        }
+                    }
+                }
+                .menu-social {
+                    @media (min-width: 1000px) {
+                        top: 75vh !important;
+                    }
+                    a {
+                    }
+                }
+            }
+            .header-right-part {
+                .menu-wrapper {
+                    .menu-holder {
+                        background-color: transparent;
+                        background-image: var(--menuHolder-background-image);
+                        border-bottom-left-radius: 10em;
+                        border-bottom-right-radius: 10em;
+                        .menu-menu-1-containe {
+                            .main-menu {
+                                .menu-item {
+                                    a {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .clear {
+                    }
+                }
+            }
+        }
+        .page {
+            outline: solid transparent 0em;
+            .one-page-content-wrapper {
+                .design {
+                    .design-inner {
+                        .design-section-wrap {
+                            .design-section {
+                                .design-container {
+                                    .design-row {
+                                        .design-column {
+                                            overflow: visible;
+                                            .special-text {
+                                                color: var(
+                                                    --skillsTextRectangle-color
+                                                );
+                                            }
+                                            .design-column-wrap {
+                                                border-top-left-radius: 7em;
+                                                border-top-right-radius: 2em;
+                                                border-bottom-left-radius: 2em;
+                                                border-bottom-right-radius: 7em;
+                                                margin: 0.25em;
+                                                transition: all 0.5s ease;
+                                                .design-widget-wrap {
+                                                    align-content: flex-start;
+                                                    .design-element {
+                                                        .design-widget-container {
+                                                            .network-container {
+                                                                overflow-x: hidden;
+                                                                min-height: 3em;
+                                                                min-width: 2em;
+                                                                max-width: 8vw;
+                                                                &::before {
+                                                                    content: "";
+                                                                    width: 100%;
+                                                                    order: 1;
+                                                                }
+                                                                &::after {
+                                                                    content: "";
+                                                                    width: 100%;
+                                                                    order: 1;
+                                                                }
+                                                                .network-image {
+                                                                    max-width: 7vw;
+                                                                }
+                                                                a {
+                                                                    img {
+                                                                        max-width: 7vw;
+                                                                    }
+                                                                    text-align: center;
+                                                                }
+                                                            }
+                                                            .design-image {
+                                                                .attachment-full {
+                                                                    border-top-left-radius: 5em;
+                                                                    border-top-right-radius: 1em;
+                                                                    border-bottom-left-radius: 1em;
+                                                                    border-bottom-right-radius: 5em;
+                                                                    transition: all
+                                                                        500ms
+                                                                        ease;
+                                                                }
+                                                            }
+                                                            .design-heading-title {
+                                                                @media (min-width: 1000px) {
+                                                                    min-width: 6em;
+                                                                }
+                                                            }
+                                                            .design-text-editor {
+                                                                a {
+                                                                    .contact-number {
+                                                                        text-align: center;
+                                                                        opacity: 0.95;
+                                                                        &::before {
+                                                                            font-size: 0.6em;
+                                                                            display: inline-block;
+                                                                            content: "⛬";
+                                                                            transform: rotate(
+                                                                                90deg
+                                                                            );
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            .design-toggle {
+                                                                .design-toggle-item {
+                                                                    .design-tab-title {
+                                                                        .design-toggle-icon {
+                                                                            .design-toggle-icon-closed {
+                                                                                .fas {
+                                                                                    transform: rotate(
+                                                                                        180deg
+                                                                                    );
+                                                                                    &:before {
+                                                                                        font-size: 0.75em;
+                                                                                        font-weight: 200;
+                                                                                        content: "⛬";
+                                                                                        transition: all
+                                                                                            200ms
+                                                                                            ease;
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                            .design-toggle-icon-opened {
+                                                                                .fas {
+                                                                                    transition: all
+                                                                                        200ms
+                                                                                        ease;
+                                                                                    transform: rotate(
+                                                                                        0deg
+                                                                                    );
+                                                                                    &:before {
+                                                                                        font-size: 0.75em;
+                                                                                        font-weight: 200;
+                                                                                        content: "⛬";
+                                                                                        transition: all
+                                                                                            200ms
+                                                                                            ease;
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                        .design-toggle-title {
+                                                                            font-weight: 400;
+                                                                            line-height: 1.25em;
+                                                                            span {
+                                                                                opacity: 0.5;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    .design-tab-content {
+                                                                        height: 0px;
+                                                                        overflow-y: hidden;
+                                                                    }
+                                                                    .design-active {
+                                                                        display: block;
+                                                                        transition: all
+                                                                            150ms
+                                                                            ease;
+                                                                        height: 100%;
+                                                                    }
+                                                                }
+                                                            }
+                                                            .design-heading-title {
+                                                                span {
+                                                                    position: absolute;
+                                                                    color: var(
+                                                                        --spanColor-color
+                                                                    );
+                                                                    &:first-of-type {
+                                                                        left: -2vw;
+                                                                    }
+                                                                }
+                                                            }
+                                                            .design-text-editor {
+                                                                word-spacing: 0.15em;
+                                                                letter-spacing: 0.05em;
+                                                                text-align: justify;
+                                                            }
+                                                            .timeline-holder {
+                                                                p {
+                                                                    text-align: left;
+                                                                    font-size: 1.5em;
+                                                                    opacity: 0.5;
+                                                                    color: var(
+                                                                        --linksHighlight-color2
+                                                                    );
+                                                                }
+
+                                                                .timeline-event {
+                                                                    .timeline-event-content {
+                                                                        .divisor-line {
+                                                                            opacity: 0.2;
+                                                                            background-color: transparent;
+                                                                            max-width: 100%;
+                                                                            background-image: linear-gradient(
+                                                                                to
+                                                                                    right,
+                                                                                white,
+                                                                                transparent
+                                                                            );
+                                                                        }
+                                                                        .highlight-institution {
+                                                                            color: var(
+                                                                                --linksHighlight-color
+                                                                            );
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            .tech-skills {
+                                                                display: flex;
+                                                                flex-direction: row;
+                                                                flex-wrap: wrap;
+                                                                max-width: 100%;
+                                                                margin-bottom: 1em;
+
+                                                                .skill-container {
+                                                                    z-index: 0;
+                                                                    margin: 1em
+                                                                        1em 0em
+                                                                        1em;
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    justify-content: center;
+                                                                    transition: outline
+                                                                            50ms
+                                                                            ease-out,
+                                                                        transform
+                                                                            450ms
+                                                                            ease-in-out,
+                                                                        background-color
+                                                                            50ms
+                                                                            ease-in-out;
+                                                                    outline: solid
+                                                                        rgba(
+                                                                            $color:
+                                                                                #020202e1,
+                                                                            $alpha:
+                                                                                0
+                                                                        )
+                                                                        0em;
+                                                                    .tech-skill {
+                                                                        max-width: 9em;
+                                                                        max-height: 0.75em;
+                                                                        .tech-skill-item {
+                                                                            max-height: 0.6em;
+                                                                            .tech-skill-fill {
+                                                                                top: 0px;
+                                                                                max-width: 9em;
+                                                                                max-height: 0.6em;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    .skill-image {
+                                                                        margin-bottom: 0.25em;
+                                                                        .skill-ico {
+                                                                            max-width: 4.4em;
+                                                                        }
+                                                                    }
+                                                                    &:hover {
+                                                                        z-index: 5;
+                                                                        background-color: transparent;
+                                                                        transform: scale(
+                                                                            1.5
+                                                                        );
+                                                                        outline: solid
+                                                                            transparent
+                                                                            90em;
+                                                                        transition: outline
+                                                                                500ms
+                                                                                ease-in-out,
+                                                                            transform
+                                                                                450ms
+                                                                                ease-in-out,
+                                                                            background-color
+                                                                                500ms
+                                                                                ease-in-out;
+
+                                                                        .skill-image {
+                                                                            z-index: 3;
+                                                                        }
+                                                                    }
+                                                                    .description-holder {
+                                                                        opacity: 0;
+                                                                        display: none;
+                                                                        // display: block;
+                                                                        position: absolute;
+                                                                        left: 5em;
+                                                                        top: -0.5em;
+                                                                        pointer-events: none;
+                                                                        transition: opacity
+                                                                            400ms
+                                                                            ease;
+                                                                        h3 {
+                                                                            max-height: 2em;
+                                                                            font-size: 0.85em;
+                                                                            font-family: "Montserrat",
+                                                                                "Source Sans Pro",
+                                                                                Helvetica
+                                                                                    Neue,
+                                                                                Helvetica,
+                                                                                Arial,
+                                                                                sans-serif;
+                                                                            font-weight: 600;
+                                                                            padding: 0em;
+                                                                            pointer-events: none;
+                                                                        }
+                                                                        .divisor {
+                                                                            opacity: 0.7;
+                                                                            position: revert;
+                                                                            border-color: var(
+                                                                                --linksHighlight-color2
+                                                                            );
+                                                                        }
+                                                                        p {
+                                                                            font-size: 0.75em;
+                                                                            color: rgb(
+                                                                                207,
+                                                                                207,
+                                                                                207
+                                                                            );
+                                                                            opacity: 1;
+                                                                        }
+                                                                        .percentage-holder {
+                                                                            color: var(
+                                                                                --linksHighlight-color2
+                                                                            );
+                                                                            font-weight: 400;
+                                                                        }
+                                                                        .separator {
+                                                                            opacity: 0.25;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            .design-counter {
+                                                                .design-counter-title {
+                                                                    color: var(
+                                                                        --factsText-color
+                                                                    );
+                                                                    opacity: 0.6;
+                                                                }
+                                                            }
+                                                        }
+                                                        .tech-skill-widget-container {
+                                                            p {
+                                                                margin-bottom: 0em;
+                                                                text-align: left;
+                                                                font-size: 1.5em;
+                                                                opacity: 0.8;
+                                                                color: var(
+                                                                    --linksHighlight-color
+                                                                );
+                                                                text-shadow: rgba(
+                                                                        248,
+                                                                        23,
+                                                                        143,
+                                                                        0.589
+                                                                    )
+                                                                    1px 0 25px;
+                                                            }
+                                                            &:hover {
+                                                            }
+                                                        }
+                                                        .widget-networks {
+                                                            display: flex;
+                                                            flex-flow: row wrap;
+                                                            align-content: space-between;
+                                                            justify-content: space-evenly;
+                                                            max-width: 50%;
+                                                            margin: 0 auto;
+                                                            &::before {
+                                                                content: "";
+                                                                width: 100%;
+                                                                order: 1;
+                                                            }
+                                                            &::after {
+                                                                content: "";
+                                                                width: 100%;
+                                                                order: 1;
+                                                            }
+                                                            .line-break {
+                                                                width: 100%;
+                                                            }
+                                                        }
+                                                    }
+                                                    .facts-element {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        .design-column-wrap {
+                                                            padding: 0em;
+                                                            margin: 0em;
+
+                                                            .design-widget-wrap {
+                                                                .design-widget-icon {
+                                                                    margin-bottom: 0em;
+                                                                    .design-widget-container {
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        display: flex;
+                                                                        .skills-holder {
+                                                                            .skill-container {
+                                                                                .skill-image {
+                                                                                    .skill-ico {
+                                                                                        min-width: 10em;
+                                                                                    }
+                                                                                }
+                                                                                .description-holder {
+                                                                                    left: 11em;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .design-widget-bs-portfolio {
+                                                        overflow: visible;
+                                                        .design-widget-container {
+                                                            overflow: visible;
+
+                                                            .relative {
+                                                                overflow: visible;
+
+                                                                .portfolio-load-content-holder {
+                                                                }
+                                                                .grid {
+                                                                    border-radius: 5em
+                                                                        2em 7em
+                                                                        2em;
+
+                                                                    .grid-sizer {
+                                                                    }
+                                                                    .element-item {
+                                                                        .item-link {
+                                                                            .wp-post-image {
+                                                                            }
+                                                                            .portfolio-text-holder {
+                                                                                padding: 0.5em
+                                                                                    1em;
+                                                                                position: relative;
+                                                                                max-height: 2.5em;
+                                                                                background-color: transparent;
+                                                                                opacity: 0.85;
+                                                                                .portfolio-text-wrapper {
+                                                                                    .portfolio-text {
+                                                                                        color: white;
+                                                                                        font-weight: 300;
+                                                                                        font-family: "Source Sans Pro",
+                                                                                            Helvetica
+                                                                                                Neue,
+                                                                                            Helvetica,
+                                                                                            Arial,
+                                                                                            sans-serif;
+                                                                                    }
+                                                                                    .portfolio-cat {
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .design-widget-image {
+                                                        img {
+                                                        }
+                                                    }
+                                                }
+                                                .scrollable-area {
+                                                    max-height: 110vh;
+                                                    overflow-y: scroll;
+                                                    padding-right: 2.5em;
+                                                }
+                                            }
+                                            .facts-column-wrap {
+                                                padding: 3em 6em;
+                                            }
+                                            .portfolio-column-wrap {
+                                                background-color: var(
+                                                    --portfolioContainer-background-color
+                                                );
+                                                &::before {
+                                                    content: "";
+                                                    min-width: 100%;
+                                                    border-radius: 5em 2em 7em
+                                                        2em;
+                                                    background-image: var(
+                                                        --home-background-image
+                                                    );
+                                                    position: absolute;
+                                                    top: 0em;
+                                                    left: 0em;
+                                                    bottom: 0em;
+                                                    opacity: 0.45;
+                                                }
+                                            }
+                                            .tech-skills-column-wrap {
+                                                box-sizing: content-box;
+                                                height: fit-content;
+                                                overflow: visible;
+                                                flex-wrap: wrap;
+                                                padding: 5em;
+
+                                                .design-widget-wrap {
+                                                    @media (max-width: 860px) {
+                                                        overflow-y: scroll;
+                                                        padding: 1em 3em;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .normal-row {
+                                        flex-direction: row;
+                                    }
+                                    .reverse {
+                                        flex-direction: row-reverse;
+                                    }
+                                    .reverse-mobile {
+                                        @media (max-width: 780px) {
+                                            flex-direction: column-reverse;
+                                        }
+                                    }
+                                }
+                            }
+                            .sections-controls {
+                                min-height: 5vh;
+                                .main-menu {
+                                    display: flex;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    text-shadow: var(
+                                            --profileRectangle-background-color
+                                        )
+                                        5px 5px 15px;
+                                    .menu-item {
+                                        padding: 0 1em;
+                                        text-shadow: var(
+                                                --profileRectangle-background-color
+                                            )
+                                            5px 5px 15px;
+
+                                        ::after {
+                                            position: relative;
+                                            left: 2em;
+                                            content: "/";
+                                        }
+                                        &:first-of-type {
+                                            background-color: var(
+                                                --aboutBG-background-color
+                                            );
+                                            background-size: cover;
+                                            border-top-left-radius: 2em;
+                                            border-bottom-right-radius: 2em;
+                                            ::after {
+                                                position: relative;
+                                                left: 2em;
+                                                content: "";
+                                            }
+                                        }
+                                        &:last-of-type {
+                                            ::after {
+                                                position: relative;
+                                                left: 2em;
+                                                content: "";
+                                            }
+                                        }
+                                        &:hover {
+                                            a {
+                                                color: var(
+                                                    --linksHighlight-color
+                                                );
+                                            }
+                                            ::after {
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .modal-section {
+            .modal {
+                .modal-dialog {
+                    .modal-content {
+                        border-radius: 1em;
+                        background-color: rgba(0, 0, 0, 0.4);
+                        backdrop-filter: blur(7px);
+                        -webkit-backdrop-filter: blur(7px);
+                        .modal-header {
+                            padding: 1em 1em 0em 1em;
+                            border: none;
+                            .btn-close {
+                                background-color: var(--linksHighlight-color2);
+                                border-radius: 0.6em 0.25em 0.6em 0.25em;
+                                &:focus {
+                                    box-shadow: 0 0 0 0.1rem
+                                        var(--aboutRectangle-background-color);
+                                }
+                            }
+                        }
+                        .modal-body {
+                            border: none;
+                            .downloadable {
+                                min-height: 12.5em;
+                                .tl-item {
+                                    a {
+                                        color: unset;
+                                    }
+                                    text-decoration: none;
+                                    &:hover {
+                                        color: white;
+                                    }
+                                }
+                            }
+                            .tl-item {
+                                display: flex;
+                                align-items: center;
+                                pointer-events: all;
+                                cursor: pointer;
+                                a {
+                                    margin-top: 2em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                }
+                                &:hover {
+                                    padding-top: 3.5em;
+                                    a {
+                                        .tl-year {
+                                            top: 60%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .modal-footer {
+                            border: none;
+                        }
+                        .modal-sub-text {
+                            padding: 0 1em;
+                            font-size: 1.15em;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+::-webkit-scrollbar {
+    // display: none;
+    background-color: var(--aboutBG-background-color);
+    width: 0.15em;
+    opacity: 0.015;
+}
+::-webkit-scrollbar-thumb {
+    color: var(--linksHighlight-color);
+    border-radius: 5em;
+    background-image: linear-gradient(
+        180deg,
+        var(--aboutBG-background-color),
+        currentColor 200%
+    );
+    opacity: 0.015;
+
+    /* 
+    background-color: transparentize(
+        $color: map-get($map: $generalpalette, $key: tealmain),
+        $amount: 0.3
+    ); */
+}

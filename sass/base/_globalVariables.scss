@@ -1,0 +1,236 @@
+:root,
+:root.law {
+    --home-background-image: linear-gradient(
+        160deg,
+        #071e31,
+        #154e7c,
+        #4585b9,
+        #2e6694,
+        #28567c,
+        #0e3758,
+        #092236,
+        #061624,
+        #030c13,
+        #02070c
+    );
+    --menuHolder-background-image: linear-gradient(
+        to bottom,
+        #061624d8,
+        #061624b9,
+        #06162480,
+        #06162452,
+        transparent
+    );
+    --skillsTextRectangle-color: #4a6796;
+    --profileRectangle-background-color: #082033;
+    --aboutRectangle-background-color: #198597;
+    --aboutTextRectangle-background-color: #334e6171;
+    --portfolioRectangle-background-color: #fc7038;
+    --coverLetterRectangle-background-color: #49d1a4;
+    --coverLetterTextRectangle-background-color: #2a303f94;
+    --skillsTextRectangle-background-color: #ffffff;
+    --skillsTextRectangle-background-image: linear-gradient(
+        to bottom,
+        #f8f4f0af,
+        #f0decae7,
+        #f0deca
+    );
+    --skillsBars-background-color: #4a6796;
+    --skillsBarsNumber-color: #4a679696;
+    --skillsRectangle-background-color: #188497;
+    --educationRectangle-background-color: #d34b61;
+    --educationTextRectangle-background-color: #11192065;
+    --educationTimeline-background: #188497;
+    --educationTimeline-color: #188497;
+    --educationTimeline-border-color: #188497;
+    --factsTextRectangle-background-color: #b6d2d854;
+    --factsIcons-background-color: #188497;
+    --factsIcons-color: #188497;
+    --factsIcons-border-color: #188497;
+    --factsRectangle-background-color: #4e296d;
+    --experienceTextRectangle-background-color: #123a5f57;
+    --experienceTextCollapse-background-color: #0719299a;
+    --experienceTextCollapseTabs-background-color: #188497;
+    --contactTextRectangle-background-color: #afdbff3d;
+    --contactRectangle-background-color: #ff4a4ad0;
+    --experienceRectangle-background-color: #47aa68;
+    --linksHighlight-color: #24c0db;
+    --linksHighlight-color2: #24c0db;
+    --linksHighlight-color3: #82c4cf;
+    --profilePicture-display: block;
+    --aboutBG-background-color: #0e375883;
+    --spanColor-color: rgba(180, 180, 180, 0.164);
+    --navBarColor-background-color: #162b4d96;
+    --experienceTabBar-background-color: #188497;
+    --contactContainer-background-color: #afdbff3d;
+    --btn-background-image: linear-gradient(
+        160deg,
+        #071e314f,
+        #154e7c4f,
+        #4585b900,
+        #2e669449,
+        #28567c44,
+        #0e37584b,
+        #09223641,
+        #06162441,
+        #030c133f,
+        #02070c3f
+    );
+}
+
+:root.tech {
+    --home-background-image: linear-gradient(
+        160deg,
+        #31070e,
+        #7c1548,
+        #b94575,
+        #942e44,
+        #7c283a,
+        #580e31,
+        #360929,
+        #230624,
+        #0f0313,
+        #07020c
+    );
+    --menuHolder-background-image: linear-gradient(
+        to bottom,
+        #630e23d8,
+        #630e23b0,
+        #630e2386,
+        #630e2360,
+        transparent
+    );
+    --profileRectangle-background-color: #330823;
+    --aboutRectangle-background-color: #971954;
+    --aboutTextRectangle-background-color: #334e6171;
+    --portfolioRectangle-background-color: #fc7038;
+    --coverLetterRectangle-background-color: #d19649;
+    --coverLetterTextRectangle-background-color: #2f2a3f94;
+    --skillsTextRectangle-background-color: #45009407;
+    --skillsTextRectangle-background-image: linear-gradient(
+        to bottom,
+        #32294b33,
+        #31117548,
+        #120d2e5d
+    );
+    --skillsTextRectangle-color: #ffffff;
+    --skillsBars-background-color: #964a76;
+    --skillsBarsNumber-color: #964a76af;
+    --skillsRectangle-background-color: #188497;
+    --educationRectangle-background-color: #d34b61;
+    --educationTextRectangle-background-color: #11192065;
+    --educationTimeline-background: #188497;
+    --educationTimeline-color: #188497;
+    --educationTimeline-border-color: #188497;
+    --factsTextRectangle-background-color: #b6d2d854;
+    --factsIcons-background-color: #188497;
+    --factsIcons-color: #188497;
+    --factsIcons-border-color: #188497;
+    --factsRectangle-background-color: #4e296d;
+    --experienceTextRectangle-background-color: #123a5f57;
+    --experienceTextCollapse-background-color: #0719299a;
+    --experienceTextCollapseTabs-background-color: #188497;
+    --contactTextRectangle-background-color: #afdbff3d;
+    --contactRectangle-background-color: #ff4a4ad0;
+    --experienceRectangle-background-color: #47aa68;
+    --linksHighlight-color: #f896ab;
+    --linksHighlight-color2: #e22d72;
+    --linksHighlight-color3: #f896ab;
+    --profilePicture-display: block;
+    --aboutBG-background-color: #580e319c;
+    --spanColor-color: rgba(180, 180, 180, 0.164);
+    --navBarColor-background-color: #58112996;
+    --experienceTabBar-background-color: #37206d;
+    --contactContainer-background-color: #2f2e4754;
+    --portfolioContainer-background-color: #6b1141;
+    --factsText-color: #c2bcfd;
+    --btn-background-image: linear-gradient(
+        160deg,
+        #31070e38,
+        #7c15483d,
+        #b9457549,
+        #942e4441,
+        #7c283a3d,
+        #580e3141,
+        #36092941,
+        #2306243f,
+        #0f03133a,
+        #07020c38
+    );
+}
+
+:root.default {
+    --home-background-image: linear-gradient(
+        160deg,
+        #4a5d43,
+        #90a084,
+        #bbc7ac,
+        #abb89d,
+        #84927e,
+        #6b776a,
+        #546157,
+        #434e47,
+        #39413d,
+        #272928
+    );
+    --menuHolder-background-image: linear-gradient(
+        to bottom,
+        #2f4d1ed8,
+        #2f4d1ea4,
+        #2f4d1e6b,
+        #2f4d1e4d,
+        transparent
+    );
+    --profileRectangle-background-color: #54614b;
+    --aboutRectangle-background-color: #678f76;
+    --aboutTextRectangle-background-color: #495c4771;
+    --portfolioRectangle-background-color: #fc7038;
+    --coverLetterRectangle-background-color: #d19649;
+    --coverLetterTextRectangle-background-color: #2f2a3f94;
+    --skillsTextRectangle-background-color: #ffffff;
+    --skillsTextRectangle-background-image: linear-gradient(
+        to bottom,
+        #f8f0f5af,
+        #f0cad9e7,
+        #f0cad7
+    );
+    --skillsTextRectangle-color: #964a76;
+    --skillsBars-background-color: #964a76;
+    --skillsBarsNumber-color: #964a76af;
+    --skillsRectangle-background-color: #188497;
+    --educationRectangle-background-color: #d34b61;
+    --educationTextRectangle-background-color: #11192065;
+    --educationTimeline-background: #188497;
+    --educationTimeline-color: #188497;
+    --educationTimeline-border-color: #188497;
+    --factsTextRectangle-background-color: #b6d2d854;
+    --factsIcons-background-color: #188497;
+    --factsIcons-color: #188497;
+    --factsIcons-border-color: #188497;
+    --factsRectangle-background-color: #4e296d;
+    --experienceTextRectangle-background-color: #123a5f57;
+    --experienceTextCollapse-background-color: #0719299a;
+    --experienceTextCollapseTabs-background-color: #188497;
+    --contactTextRectangle-background-color: #afdbff3d;
+    --contactRectangle-background-color: #ff4a4ad0;
+    --experienceRectangle-background-color: #47aa68;
+    --linksHighlight-color: #2c3625;
+    --linksHighlight-color2: #728167;
+    --linksHighlight-color3: #88997b;
+    --aboutBG-background-color: #434e4788;
+    --spanColor-color: rgba(0, 0, 0, 0.164);
+    --navBarColor-background-color: #465a3596;
+    --btn-background-image: linear-gradient(
+        160deg,
+        #4a5d435e,
+        #90a08450,
+        #bbc7ac44,
+        #abb89d3f,
+        #84927e41,
+        #6b776a41,
+        #5461573d,
+        #434e4736,
+        #39413d36,
+        #27292833
+    );
+}
