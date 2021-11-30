@@ -44,21 +44,7 @@ backDrop.style.display = "block";
 backDrop.style.opacity = "0";
 backDrop.style.transition = "opacity 500ms ease";
 
-const removeBlur = () => {
-    for (let child in body.children) {
-        console.dir(body.children[child]);
-        if (body.children[child] === backDrop) {
-            body.removeChild(backDrop);
-        }
-    }
-};
-
-const removePageOutline = () => {
-    techSkillsColumn.style.removeProperty("outline");
-    techSkillsColumn.style.removeProperty("transition");
-};
-
-const listenHover = () => {
+const descriptionWidthHandler = (node, nodeChild) => {
     function getTextWidth(text, font) {
         const canvas =
             getTextWidth.canvas ||
@@ -80,6 +66,83 @@ const listenHover = () => {
 
         return `${fontWeight} ${fontSize} ${fontFamily}`;
     }
+
+    if (screen.width > 435) {
+        node.children[nodeChild].style.minWidth =
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) >=
+            16 * 11.5
+                ? `${getTextWidth(
+                      node.children[nodeChild].children[0].innerText,
+                      getCanvasFontSize(node.children[nodeChild].children[0])
+                  )}px`
+                : "11.5em";
+    } else if (screen.width <= 435 && screen.width > 365) {
+        node.children[nodeChild].style.minWidth =
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) <
+            16 * 9.5
+                ? `${getTextWidth(
+                      node.children[nodeChild].children[0].innerText,
+                      getCanvasFontSize(node.children[nodeChild].children[0])
+                  )}px`
+                : "9.5em";
+        if (
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) <
+            16 * 9.5
+        ) {
+            node.children[nodeChild].classList.add("small-desc");
+        } else {
+            node.children[nodeChild].classList.add("big-desc");
+        }
+    } else {
+        node.children[nodeChild].style.minWidth =
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) <
+            16 * 8.5
+                ? `${getTextWidth(
+                      node.children[nodeChild].children[0].innerText,
+                      getCanvasFontSize(node.children[nodeChild].children[0])
+                  )}px`
+                : "8.5em";
+        if (
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) <
+            16 * 8.5
+        ) {
+            node.children[nodeChild].classList.add("small-desc");
+        } else {
+            node.children[nodeChild].classList.add("big-desc");
+        }
+    }
+};
+
+const removeBlur = () => {
+    for (let child in body.children) {
+        console.dir(body.children[child]);
+        if (body.children[child] === backDrop) {
+            body.removeChild(backDrop);
+        }
+    }
+};
+
+const removePageOutline = () => {
+    techSkillsColumn.style.removeProperty("outline");
+    techSkillsColumn.style.removeProperty("transition");
+};
+
+const listenHover = () => {
     const section = document.querySelector(".mother-section");
     console.dir(section);
 
@@ -93,7 +156,7 @@ const listenHover = () => {
         } else if (section.classList.contains("facts-section")) {
             child = 1;
         }
-
+        descriptionWidthHandler(holder, child);
         console.dir(child);
         holder.addEventListener("mouseover", () => {
             console.dir(holder);
@@ -101,71 +164,7 @@ const listenHover = () => {
             setTimeout(() => {
                 holder.children[child].style.opacity = "1";
             }, 200);
-            if (screen.width > 435) {
-                holder.children[child].style.minWidth =
-                    getTextWidth(
-                        holder.children[child].children[0].innerText,
-                        getCanvasFontSize(holder.children[child].children[0])
-                    ) >=
-                    16 * 11.5
-                        ? `${getTextWidth(
-                              holder.children[child].children[0].innerText,
-                              getCanvasFontSize(
-                                  holder.children[child].children[0]
-                              )
-                          )}px`
-                        : "11.5em";
-            } else if (screen.width <= 435 && screen.width > 365) {
-                holder.children[child].style.minWidth =
-                    getTextWidth(
-                        holder.children[child].children[0].innerText,
-                        getCanvasFontSize(holder.children[child].children[0])
-                    ) <
-                    16 * 9.5
-                        ? `${getTextWidth(
-                              holder.children[child].children[0].innerText,
-                              getCanvasFontSize(
-                                  holder.children[child].children[0]
-                              )
-                          )}px`
-                        : "9.5em";
-                if (
-                    getTextWidth(
-                        holder.children[child].children[0].innerText,
-                        getCanvasFontSize(holder.children[child].children[0])
-                    ) <
-                    16 * 9.5
-                ) {
-                    holder.children[child].classList.add("small-desc");
-                } else {
-                    holder.children[child].classList.add("big-desc");
-                }
-            } else {
-                holder.children[child].style.minWidth =
-                    getTextWidth(
-                        holder.children[child].children[0].innerText,
-                        getCanvasFontSize(holder.children[child].children[0])
-                    ) <
-                    16 * 8.5
-                        ? `${getTextWidth(
-                              holder.children[child].children[0].innerText,
-                              getCanvasFontSize(
-                                  holder.children[child].children[0]
-                              )
-                          )}px`
-                        : "8.5em";
-                if (
-                    getTextWidth(
-                        holder.children[child].children[0].innerText,
-                        getCanvasFontSize(holder.children[child].children[0])
-                    ) <
-                    16 * 8.5
-                ) {
-                    holder.children[child].classList.add("small-desc");
-                } else {
-                    holder.children[child].classList.add("big-desc");
-                }
-            }
+            descriptionWidthHandler(holder, child);
             techSkillsColumn.style.outline = "solid #020202C9 90em";
             techSkillsColumn.style.transition = "outline 500ms ease-in-out";
             backDrop.style.opacity = "1";
