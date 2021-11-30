@@ -67,7 +67,7 @@ const descriptionWidthHandler = (node, nodeChild) => {
         return `${fontWeight} ${fontSize} ${fontFamily}`;
     }
 
-    if (screen.width > 435) {
+    if (screen.width > 535) {
         node.children[nodeChild].style.minWidth =
             getTextWidth(
                 node.children[nodeChild].children[0].innerText,
@@ -79,7 +79,30 @@ const descriptionWidthHandler = (node, nodeChild) => {
                       getCanvasFontSize(node.children[nodeChild].children[0])
                   )}px`
                 : "11.5em";
-    } else if (screen.width <= 435 && screen.width > 365) {
+    } else if (screen.width <= 535 && screen.width > 435) {
+        node.children[nodeChild].style.minWidth =
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) <
+            16 * 10.5
+                ? `${getTextWidth(
+                      node.children[nodeChild].children[0].innerText,
+                      getCanvasFontSize(node.children[nodeChild].children[0])
+                  )}px`
+                : "10.5em";
+        if (
+            getTextWidth(
+                node.children[nodeChild].children[0].innerText,
+                getCanvasFontSize(node.children[nodeChild].children[0])
+            ) <
+            16 * 10.5
+        ) {
+            node.children[nodeChild].classList.add("small-desc");
+        } else {
+            node.children[nodeChild].classList.add("big-desc");
+        }
+    } else if (screen.width <= 435 && screen.width > 392) {
         node.children[nodeChild].style.minWidth =
             getTextWidth(
                 node.children[nodeChild].children[0].innerText,
@@ -156,7 +179,7 @@ const listenHover = () => {
         } else if (section.classList.contains("facts-section")) {
             child = 1;
         }
-        descriptionWidthHandler(holder, child);
+        screen.width <= 435 && descriptionWidthHandler(holder, child);
         console.dir(child);
         holder.addEventListener("mouseover", () => {
             console.dir(holder);
@@ -603,6 +626,8 @@ for (let item of selectorArray) {
                                     "design-active"
                                 )
                             ) {
+                                if (screen.width > 405) {
+                                }
                                 let x = 0;
                                 const increaseHeight = (height) => {
                                     console.log(
@@ -619,6 +644,8 @@ for (let item of selectorArray) {
                                             increaseHeight(x);
                                         }, 20);
                                     } else {
+                                        nodeAlt.children[1].style.maxHeight =
+                                            "revert";
                                     }
                                 };
                                 increaseHeight(x);

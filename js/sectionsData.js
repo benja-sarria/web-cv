@@ -97,7 +97,7 @@ export const sections = {
                 >
                     <div
                         class="
-                            design-widget-wrap
+                            design-widget-wrap design-content-wrap
                         "
                     >
                         <div
@@ -450,7 +450,7 @@ export const sections = {
                     >
                         <div
                             class="
-                                design-widget-wrap scrollable-area
+                                design-widget-wrap scrollable-area design-content-wrap
                             "
                         >
                             <div
@@ -613,7 +613,7 @@ export const sections = {
                     >
                         <div
                             class="
-                                design-widget-wrap
+                                design-widget-wrap design-content-wrap
                             "
                         >
                             <div
@@ -1103,7 +1103,7 @@ export const sections = {
                     >
                         <div
                             class="
-                                design-widget-wrap scrollable-area
+                                design-widget-wrap scrollable-area design-content-wrap
                             "
                         >
                             <div
@@ -1437,7 +1437,7 @@ export const sections = {
                     >
                         <div
                             class="
-                                design-widget-wrap
+                                design-widget-wrap design-content-wrap
                             "
                         >
                             <div
@@ -1788,7 +1788,7 @@ export const sections = {
                     >
                         <div
                             class="
-                                design-widget-wrap
+                                design-widget-wrap design-content-wrap
                             "
                         >
                             <div
@@ -2218,12 +2218,12 @@ export const sections = {
                     <div
                         class="
                             design-column-wrap
-                            design-element-populated portfolio-column-wrap
+                            design-element-populated portfolio-column-wrap design-element-populated-content
                         "
                     >
                         <div
                             class="
-                                design-widget-wrap
+                                design-widget-wrap portfolio-widget-wrap design-content-wrap
                             "
                         >
                             <div
@@ -2255,11 +2255,7 @@ export const sections = {
                                             class="grid"
                                             id="portfolio-grid"
                                         >
-                                            <div
-                                                class="
-                                                    grid-sizer
-                                                "
-                                            ></div>
+                                            
     
                                             <div
                                                 class="
@@ -2590,7 +2586,7 @@ export const sections = {
                 >
                     <div
                         class="
-                            design-widget-wrap scrollable-area
+                            design-widget-wrap scrollable-area design-content-wrap
                         "
                     >
                         <div
@@ -2756,7 +2752,7 @@ data-settings='{"background_background":"classic"}'
             >
                 <div
                     class="
-                        design-widget-wrap
+                        design-widget-wrap design-content-wrap
                     "
                 >
                     <div
@@ -3706,12 +3702,12 @@ data-settings='{"background_background":"classic"}'
             <div
                 class="
                     design-column-wrap
-                    design-element-populated
+                    design-element-populated design-element-populated-content
                 "
             >
                 <div
                     class="
-                        design-widget-wrap scrollable-area
+                        design-widget-wrap scrollable-area design-content-wrap
                     "
                 >
                     <div
@@ -3909,7 +3905,7 @@ data-settings='{"background_background":"classic"}'
                     >
                         <div
                             class="
-                                design-widget-wrap
+                                design-widget-wrap design-content-wrap
                             "
                         >
                             <div
@@ -4009,7 +4005,7 @@ data-settings='{"background_background":"classic"}'
                                                             skills-holder tech-skills
                                                         "
                                                     > 
-                                                        <div class="skill-container">
+                                                        <div class="skill-container facts-container">
                                                             <div class="skill-image">
                                                                 <img src="../assets/images/planet.webp" alt="Image" class="skill-ico">
                                                             </div>
@@ -4103,7 +4099,7 @@ data-settings='{"background_background":"classic"}'
                                                             skills-holder tech-skills
                                                         "
                                                     > 
-                                                        <div class="skill-container">
+                                                        <div class="skill-container facts-container">
                                                             <div class="skill-image">
                                                                 <img src="../assets/images/music.webp" alt="Image" class="skill-ico">
                                                             </div>
@@ -4122,7 +4118,7 @@ data-settings='{"background_background":"classic"}'
                                                             design-element
                                                             design-element-b022c2f
                                                             design-widget
-                                                            design-widget-counter
+                                                            design-widget-counter short-widget
                                                         "
                                                         data-id="b022c2f"
                                                         data-element_type="widget"
@@ -4223,7 +4219,7 @@ data-settings='{"background_background":"classic"}'
                                                             skills-holder tech-skills
                                                         "
                                                     > 
-                                                        <div class="skill-container">
+                                                        <div class="skill-container facts-container">
                                                             <div class="skill-image">
                                                                 <img src="../assets/images/mundo.webp" alt="Image" class="skill-ico">
                                                             </div>
@@ -4317,7 +4313,7 @@ data-settings='{"background_background":"classic"}'
                                                             skills-holder tech-skills
                                                         "
                                                     > 
-                                                        <div class="skill-container">
+                                                        <div class="skill-container facts-container">
                                                             <div class="skill-image">
                                                                 <img src="../assets/images/community.webp" alt="Image" class="skill-ico">
                                                             </div>
@@ -4520,12 +4516,12 @@ data-settings='{"background_background":"classic"}'
                 <div
                     class="
                         design-column-wrap
-                        design-element-populated
+                        design-element-populated design-element-populated-content
                     "
                 >
                     <div
                         class="
-                            design-widget-wrap
+                            design-widget-wrap design-content-wrap
                         "
                     >
                         <div
@@ -4747,12 +4743,12 @@ data-settings='{"background_background":"classic"}'
             <div
                 class="
                     design-column-wrap
-                    design-element-populated
+                    design-element-populated design-element-populated-content
                 "
             >
                 <div
                     class="
-                        design-widget-wrap
+                        design-widget-wrap design-content-wrap
                     "
                 >
                     <div

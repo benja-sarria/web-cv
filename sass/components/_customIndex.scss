@@ -116,14 +116,8 @@ html {
                                                 margin: 0.25em;
                                                 transition: all 0.5s ease;
                                                 .design-widget-wrap {
-                                                    border-top-left-radius: 5em;
-                                                    border-top-right-radius: 2em;
-                                                    border-bottom-left-radius: 2em;
-                                                    border-bottom-right-radius: 7em;
                                                     align-content: flex-start;
-                                                    @media (max-width: 767px) {
-                                                        padding: 1.5em 1em;
-                                                    }
+
                                                     .design-element {
                                                         .design-widget-container {
                                                             .network-container {
@@ -376,6 +370,10 @@ html {
                                                                                 line-height: 1.5em;
                                                                                 margin-bottom: 1.5em;
                                                                             }
+                                                                            @media (min-width: 436px) and (max-width: 535px) {
+                                                                                line-height: 1.5em;
+                                                                                margin-bottom: 1.5em;
+                                                                            }
                                                                         }
                                                                     }
                                                                     .description-holder {
@@ -430,6 +428,23 @@ html {
                                                                         }
                                                                     }
                                                                 }
+                                                                .facts-container {
+                                                                    &:hover {
+                                                                        @media (max-width: 767px) {
+                                                                            transform: scale(
+                                                                                1.2
+                                                                            );
+                                                                        }
+                                                                    }
+                                                                    .skill-image {
+                                                                        .skill-ico {
+                                                                            @media (max-width: 767px) {
+                                                                                max-width: 7.5em;
+                                                                                min-width: 7.5em !important;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             }
                                                             .design-counter {
                                                                 .design-counter-title {
@@ -467,6 +482,12 @@ html {
                                                             justify-content: space-evenly;
                                                             max-width: 50%;
                                                             margin: 0 auto;
+                                                            @media (min-width: 500px) and (max-width: 767px) {
+                                                                max-width: 50%;
+                                                            }
+                                                            @media (max-width: 500px) {
+                                                                max-width: 80%;
+                                                            }
                                                             &::before {
                                                                 content: "";
                                                                 width: 100%;
@@ -479,6 +500,24 @@ html {
                                                             }
                                                             .line-break {
                                                                 width: 100%;
+                                                            }
+                                                            .network-container {
+                                                                @media (max-width: 355px) {
+                                                                    min-width: 3em;
+                                                                }
+                                                                @media (min-width: 355px) and (max-width: 767px) {
+                                                                    min-width: 4.5em;
+                                                                }
+                                                                a {
+                                                                    img {
+                                                                        @media (min-width: 355px) and (max-width: 767px) {
+                                                                            min-width: 4.5em;
+                                                                        }
+                                                                        @media (max-width: 355px) {
+                                                                            min-width: 3em;
+                                                                        }
+                                                                    }
+                                                                }
                                                             }
                                                         }
                                                     }
@@ -529,8 +568,10 @@ html {
                                                                     border-radius: 5em
                                                                         2em 7em
                                                                         2em;
-
-                                                                    .grid-sizer {
+                                                                    @media (max-width: 405px) {
+                                                                        padding: 2.5em
+                                                                            1.2em;
+                                                                        border-radius: 200em;
                                                                     }
                                                                     .element-item {
                                                                         .item-link {
@@ -569,6 +610,19 @@ html {
                                                         }
                                                     }
                                                 }
+                                                .design-content-wrap {
+                                                    border-top-left-radius: 5em;
+                                                    border-top-right-radius: 2em;
+                                                    border-bottom-left-radius: 2em;
+                                                    border-bottom-right-radius: 7em;
+                                                    padding: 1.5em 1.5em;
+                                                    @media (max-width: 767px) {
+                                                        padding: 1.5em 1.2em;
+                                                    }
+                                                }
+                                                .portfolio-widget-wrap {
+                                                    padding: revert;
+                                                }
                                                 .special-widget-wrap {
                                                     @media (max-width: 767px) {
                                                         padding: 0em;
@@ -581,14 +635,64 @@ html {
                                                 }
                                             }
                                             .design-element-populated-content {
+                                                padding: 3em 3em;
+
                                                 @media (max-width: 767px) {
                                                     padding: 3em 3em;
                                                 }
                                             }
                                             .facts-column-wrap {
                                                 padding: 3em 6em;
+                                                @media (max-width: 767px) {
+                                                    padding: 3em 6em 3em 1em;
+                                                }
+                                                .design-widget-wrap {
+                                                    @media (max-width: 767px) {
+                                                        padding: 0em;
+                                                    }
+                                                    .design-element {
+                                                        @media (max-width: 767px) {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: flex-start;
+                                                            justify-content: flex-start;
+                                                        }
+                                                        .design-widget-container {
+                                                            .tech-skills {
+                                                                .facts-container {
+                                                                    .description-holder {
+                                                                        @media (max-width: 767px) {
+                                                                            left: 8.5em !important;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .design-widget-counter {
+                                                        @media (max-width: 767px) {
+                                                            max-width: 50%;
+                                                        }
+                                                        .design-widget-container {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-self: center;
+                                                            .design-counter {
+                                                            }
+                                                        }
+                                                    }
+                                                    .short-widget {
+                                                        @media (max-width: 767px) {
+                                                            min-width: 50%;
+                                                        }
+                                                    }
+                                                    .design-widget-text-editor {
+                                                        padding-left: 2em;
+                                                    }
+                                                }
                                             }
                                             .portfolio-column-wrap {
+                                                padding: 0em;
                                                 background-color: var(
                                                     --portfolioContainer-background-color
                                                 );
