@@ -4105,7 +4105,7 @@ data-settings='{"background_background":"classic"}'
                                                             </div>
                                                             
                                                             <div class="description-holder">
-                                                                <h3> Musica, Armonía </h3>
+                                                                <h3> Musica, Armonía, Composición </h3>
                                                                 <hr class="divisor"/>
                                                                 <p>- &nbsp La creatividad se manifiesta de muchas formas, en sonidos, letras, ritmos. A través de la música comunicamos y transmitimos cosas. Me inspira escuchar y descubrir los mensajes, el sentimiento que pretendía transmitir el compositor. Esto se aprecia mucho en obras como las de Howard Shore, entre otros.</p>
                         
