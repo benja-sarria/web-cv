@@ -979,6 +979,12 @@ li.timeline-event:hover .timeline-event-date {
     height: 12px;
     background-color: #fff;
     position: relative;
+    @media (max-width: 526px) {
+        padding-top: 1.2em;
+        min-height: 1em;
+        display: flex;
+        align-items: center;
+    }
 }
 .skill-text {
     color: #fcf7f1;
@@ -990,6 +996,9 @@ li.timeline-event:hover .timeline-event-date {
     z-index: 1;
     transform: translate(10px, -10px);
     display: inline-block;
+    @media (max-width: 526px) {
+        max-width: 80%;
+    }
 }
 .skill-fill {
     position: absolute;
@@ -6972,9 +6981,11 @@ h4.widgettitle {
     .sm-clean a:focus,
     .sm-clean a:active,
     .sm-clean a.highlighted {
-        padding: 10px 18px;
-        padding-left: 0 !important;
-        margin-bottom: 5px;
+        @media (min-width: 767px) {
+            padding: 10px 18px;
+            padding-left: 0 !important;
+            margin-bottom: 5px;
+        }
     }
     .sub-menu .sub-menu,
     .children .children {

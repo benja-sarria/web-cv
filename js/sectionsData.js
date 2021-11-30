@@ -92,7 +92,7 @@ export const sections = {
                 <div
                     class="
                         design-column-wrap
-                        design-element-populated
+                        design-element-populated design-element-populated-content
                     "
                 >
                     <div
@@ -445,7 +445,7 @@ export const sections = {
                     <div
                         class="
                             design-column-wrap
-                            design-element-populated
+                            design-element-populated design-element-populated-content
                         "
                     >
                         <div
@@ -576,7 +576,6 @@ export const sections = {
             design-element
             design-element-48198d00
             op-section
-            design-reverse-mobile
             design-section-boxed
             design-section-height-default
             design-section-height-default
@@ -592,7 +591,7 @@ export const sections = {
                 design-column-gap-no
             "
         >
-            <div class="design-row ">
+            <div class="design-row reverse-mobile">
                 <div
                     class="
                         design-column
@@ -608,7 +607,7 @@ export const sections = {
                     <div
                         class="
                             design-column-wrap
-                            design-element-populated
+                            design-element-populated design-element-populated-content
                             special-text
                         "
                     >
@@ -1099,7 +1098,7 @@ export const sections = {
                     <div
                         class="
                             design-column-wrap
-                            design-element-populated
+                            design-element-populated design-element-populated-content
                         "
                     >
                         <div
@@ -1341,682 +1340,7 @@ export const sections = {
             </div>
         </div>
     </section>`,
-        5: `<section
-        class="
-            design-section
-            design-top-section
-            design-element
-            design-element-da7ba6b
-            op-section
-            design-reverse-mobile
-            design-section-boxed
-            design-section-height-default
-            design-section-height-default
-        "
-        data-id="da7ba6b"
-        data-element_type="section"
-        id="facts"
-        data-settings='{"background_background":"classic"}'
-    >
-        <div
-            class="
-                design-container
-                design-column-gap-no
-            "
-        >
-            <div class="design-row ">
-                <div
-                    class="
-                        design-column
-                        design-col-66
-                        design-top-column
-                        design-element
-                        design-element-359bfd64
-                    "
-                    data-id="359bfd64"
-                    data-element_type="column"
-                    data-settings='{"background_background":"classic"}'
-                >
-                    <div
-                        class="
-                            design-column-wrap
-                            design-element-populated
-                        "
-                    >
-                        <div
-                            class="
-                                design-widget-wrap
-                            "
-                        >
-                            <div
-                                class="
-                                    design-element
-                                    design-element-51c97412
-                                    design-widget
-                                    design-widget-text-editor
-                                "
-                                data-id="51c97412"
-                                data-element_type="widget"
-                                data-widget_type="text-editor.default"
-                            >
-                                <div
-                                    class="
-                                        design-widget-container
-                                    "
-                                >
-                                    <div
-                                        class="
-                                            design-text-editor
-                                            design-clearfix
-                                        "
-                                    >
-                                        <p>
-                                            Aparte de ser un Abogado que ama la programación, también tengo interés por muchos temas, como por ejemplo:
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <section
-                                class="
-                                    design-section
-                                    design-inner-section
-                                    design-element
-                                    design-element-a97ee51
-                                    design-section-boxed
-                                    design-section-height-default
-                                    design-section-height-default
-                                "
-                                data-id="a97ee51"
-                                data-element_type="section"
-                            >
-                                <div
-                                    class="
-                                        design-container
-                                        design-column-gap-default
-                                    "
-                                >
-                                    <div
-                                        class="
-                                            design-row
-                                        "
-                                    >
-                                        <div
-                                            class="
-                                                design-column
-                                                design-col-50
-                                                design-inner-column
-                                                design-element
-                                                design-element-4f0c54e
-                                            "
-                                            data-id="4f0c54e"
-                                            data-element_type="column"
-                                        >
-                                            <div
-                                                class="
-                                                    design-column-wrap
-                                                    design-element-populated
-                                                "
-                                            >
-                                                <div
-                                                    class="
-                                                        design-widget-wrap
-                                                    "
-                                                >
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-33d653a
-                                                            design-view-default
-                                                            design-widget
-                                                            design-widget-icon
-                                                        "
-                                                        data-id="33d653a"
-                                                        data-element_type="widget"
-                                                        data-widget_type="icon.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-icon-wrapper
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-icon
-                                                                    "
-                                                                >
-                                                                    <i
-                                                                        aria-hidden="true"
-                                                                        class="
-                                                                            fas
-                                                                            fa-coffee
-                                                                        "
-                                                                    ></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-b184479
-                                                            design-widget
-                                                            design-widget-counter
-                                                        "
-                                                        data-id="b184479"
-                                                        data-element_type="widget"
-                                                        data-widget_type="counter.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-counter
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-counter-number-wrapper
-                                                                    "
-                                                                >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-prefix
-                                                                        "
-                                                                    ></span>
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number
-                                                                        "
-                                                                        data-duration="2000"
-                                                                        data-to-value="13"
-                                                                        data-from-value="9"
-                                                                        data-delimiter=","
-                                                                        >9</span
-                                                                    >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-suffix
-                                                                        "
-                                                                    ></span>
-                                                                </div>
-                                                                <div
-                                                                    class="
-                                                                        design-counter-title
-                                                                    "
-                                                                >
-                                                                    Cups
-                                                                    of
-                                                                    Coffee
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="
-                                                design-column
-                                                design-col-50
-                                                design-inner-column
-                                                design-element
-                                                design-element-103e7f2
-                                            "
-                                            data-id="103e7f2"
-                                            data-element_type="column"
-                                        >
-                                            <div
-                                                class="
-                                                    design-column-wrap
-                                                    design-element-populated
-                                                "
-                                            >
-                                                <div
-                                                    class="
-                                                        design-widget-wrap
-                                                    "
-                                                >
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-d88baaf
-                                                            design-view-default
-                                                            design-widget
-                                                            design-widget-icon
-                                                        "
-                                                        data-id="d88baaf"
-                                                        data-element_type="widget"
-                                                        data-widget_type="icon.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-icon-wrapper
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-icon
-                                                                    "
-                                                                >
-                                                                    <i
-                                                                        aria-hidden="true"
-                                                                        class="
-                                                                            fas
-                                                                            fa-cloud-download-alt
-                                                                        "
-                                                                    ></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-b022c2f
-                                                            design-widget
-                                                            design-widget-counter
-                                                        "
-                                                        data-id="b022c2f"
-                                                        data-element_type="widget"
-                                                        data-widget_type="counter.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-counter
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-counter-number-wrapper
-                                                                    "
-                                                                >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-prefix
-                                                                        "
-                                                                    ></span>
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number
-                                                                        "
-                                                                        data-duration="2000"
-                                                                        data-to-value="250"
-                                                                        data-from-value="200"
-                                                                        data-delimiter=","
-                                                                        >200</span
-                                                                    >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-suffix
-                                                                        "
-                                                                    ></span>
-                                                                </div>
-                                                                <div
-                                                                    class="
-                                                                        design-counter-title
-                                                                    "
-                                                                >
-                                                                    GB
-                                                                    Download
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section
-                                class="
-                                    design-section
-                                    design-inner-section
-                                    design-element
-                                    design-element-f1559ef
-                                    design-section-boxed
-                                    design-section-height-default
-                                    design-section-height-default
-                                "
-                                data-id="f1559ef"
-                                data-element_type="section"
-                            >
-                                <div
-                                    class="
-                                        design-container
-                                        design-column-gap-default
-                                    "
-                                >
-                                    <div
-                                        class="
-                                            design-row
-                                        "
-                                    >
-                                        <div
-                                            class="
-                                                design-column
-                                                design-col-50
-                                                design-inner-column
-                                                design-element
-                                                design-element-94620e6
-                                            "
-                                            data-id="94620e6"
-                                            data-element_type="column"
-                                        >
-                                            <div
-                                                class="
-                                                    design-column-wrap
-                                                    design-element-populated
-                                                "
-                                            >
-                                                <div
-                                                    class="
-                                                        design-widget-wrap
-                                                    "
-                                                >
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-a43a098
-                                                            design-view-default
-                                                            design-widget
-                                                            design-widget-icon
-                                                        "
-                                                        data-id="a43a098"
-                                                        data-element_type="widget"
-                                                        data-widget_type="icon.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-icon-wrapper
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-icon
-                                                                    "
-                                                                >
-                                                                    <i
-                                                                        aria-hidden="true"
-                                                                        class="
-                                                                            fas
-                                                                            fa-code
-                                                                        "
-                                                                    ></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-471bd6e
-                                                            design-widget
-                                                            design-widget-counter
-                                                        "
-                                                        data-id="471bd6e"
-                                                        data-element_type="widget"
-                                                        data-widget_type="counter.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-counter
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-counter-number-wrapper
-                                                                    "
-                                                                >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-prefix
-                                                                        "
-                                                                    ></span>
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number
-                                                                        "
-                                                                        data-duration="2000"
-                                                                        data-to-value="3.3"
-                                                                        data-from-value="2"
-                                                                        data-delimiter=","
-                                                                        >2</span
-                                                                    >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-suffix
-                                                                        "
-                                                                        >K</span
-                                                                    >
-                                                                </div>
-                                                                <div
-                                                                    class="
-                                                                        design-counter-title
-                                                                    "
-                                                                >
-                                                                    Lines
-                                                                    of
-                                                                    Code
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="
-                                                design-column
-                                                design-col-50
-                                                design-inner-column
-                                                design-element
-                                                design-element-5fae58e
-                                            "
-                                            data-id="5fae58e"
-                                            data-element_type="column"
-                                        >
-                                            <div
-                                                class="
-                                                    design-column-wrap
-                                                    design-element-populated
-                                                "
-                                            >
-                                                <div
-                                                    class="
-                                                        design-widget-wrap
-                                                    "
-                                                >
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-8fc8e8a
-                                                            design-view-default
-                                                            design-widget
-                                                            design-widget-icon
-                                                        "
-                                                        data-id="8fc8e8a"
-                                                        data-element_type="widget"
-                                                        data-widget_type="icon.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-icon-wrapper
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-icon
-                                                                    "
-                                                                >
-                                                                    <i
-                                                                        aria-hidden="true"
-                                                                        class="
-                                                                            fas
-                                                                            fa-images
-                                                                        "
-                                                                    ></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="
-                                                            design-element
-                                                            design-element-09cb85b
-                                                            design-widget
-                                                            design-widget-counter
-                                                        "
-                                                        data-id="09cb85b"
-                                                        data-element_type="widget"
-                                                        data-widget_type="counter.default"
-                                                    >
-                                                        <div
-                                                            class="
-                                                                design-widget-container
-                                                            "
-                                                        >
-                                                            <div
-                                                                class="
-                                                                    design-counter
-                                                                "
-                                                            >
-                                                                <div
-                                                                    class="
-                                                                        design-counter-number-wrapper
-                                                                    "
-                                                                >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-prefix
-                                                                        "
-                                                                    ></span>
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number
-                                                                        "
-                                                                        data-duration="2000"
-                                                                        data-to-value="743"
-                                                                        data-from-value="730"
-                                                                        data-delimiter=","
-                                                                        >730</span
-                                                                    >
-                                                                    <span
-                                                                        class="
-                                                                            design-counter-number-suffix
-                                                                        "
-                                                                    ></span>
-                                                                </div>
-                                                                <div
-                                                                    class="
-                                                                        design-counter-title
-                                                                    "
-                                                                >
-                                                                    Photos
-                                                                    /
-                                                                    Week
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="
-                        design-column
-                        design-col-33
-                        design-top-column
-                        design-element
-                        design-element-78db0d70
-                        design-column-align
-                    "
-                    data-id="78db0d70"
-                    data-element_type="column"
-                    data-settings='{"background_background":"classic"}'
-                >
-                    <div
-                        class="
-                            design-column-wrap
-                            design-element-populated
-                        "
-                    >
-                        <div
-                            class="
-                                design-widget-wrap
-                            "
-                        >
-                            <div
-                                class="
-                                    design-element
-                                    design-element-4cfc3491
-                                    design-widget
-                                    design-widget-heading
-                                "
-                                data-id="4cfc3491"
-                                data-element_type="widget"
-                                data-widget_type="heading.default"
-                            >
-                                <div
-                                    class="
-                                        design-widget-container
-                                    "
-                                >
-                                    <h2
-                                        class="
-                                            design-heading-title
-                                            design-size-default
-                                        "
-                                    >
-                                        Facts
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>`,
+
         6: `   <section
         class="
             design-section
@@ -2108,7 +1432,7 @@ export const sections = {
                     <div
                         class="
                             design-column-wrap
-                            design-element-populated
+                            design-element-populated design-element-populated-content
                         "
                     >
                         <div
@@ -2459,7 +1783,7 @@ export const sections = {
                     <div
                         class="
                             design-column-wrap
-                            design-element-populated
+                            design-element-populated design-element-populated-content
                         "
                     >
                         <div
@@ -3261,7 +2585,7 @@ export const sections = {
                 <div
                     class="
                         design-column-wrap
-                        design-element-populated
+                        design-element-populated design-element-populated-content
                     "
                 >
                     <div
@@ -3493,7 +2817,7 @@ data-settings='{"background_background":"classic"}'
                         class="
                             design-element
                             design-element-51c9fb72
-                            design-widget
+                            design-widget design-widget-tech-skills
                         "
                         data-id="51c9fb72"
                         data-element_type="widget"

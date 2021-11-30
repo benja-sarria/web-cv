@@ -511,6 +511,11 @@ body.rtl .design-181 .design-element.design-element-22d6fdac {
   border-top-left-radius: 0.75em;
   border-bottom-left-radius: 0.15em;
 }
+@media (max-width: 526px) {
+  .design-181 .design-element.design-element-51c9fb72 .skill-fill {
+    min-height: 2em;
+  }
+}
 
 .design-181 .design-element.design-element-51c9fb72 .skill {
   background-color: #fff;
@@ -2560,6 +2565,14 @@ li.timeline-event:hover .timeline-event-date {
   background-color: #fff;
   position: relative;
 }
+@media (max-width: 526px) {
+  .skill {
+    padding-top: 1.2em;
+    min-height: 1em;
+    display: flex;
+    align-items: center;
+  }
+}
 
 .skill-text {
   color: #fcf7f1;
@@ -2571,6 +2584,11 @@ li.timeline-event:hover .timeline-event-date {
   z-index: 1;
   transform: translate(10px, -10px);
   display: inline-block;
+}
+@media (max-width: 526px) {
+  .skill-text {
+    max-width: 80%;
+  }
 }
 
 .skill-fill {
@@ -9090,7 +9108,8 @@ h4.widgettitle {
     background: 0 0;
     margin-top: -19px !important;
   }
-
+}
+@media screen and (max-width: 1300px) and (min-width: 767px) {
   .sm-clean a,
 .sm-clean a:hover,
 .sm-clean a:focus,
@@ -9100,38 +9119,46 @@ h4.widgettitle {
     padding-left: 0 !important;
     margin-bottom: 5px;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .sub-menu .sub-menu,
 .children .children {
     padding-top: 0;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .sm-clean .sub-menu a,
 .sm-clean .children a {
     padding-left: 0 !important;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .site-content {
     padding-top: 50px;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .blog-item-holder .entry-holder {
     display: block;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .more-posts-index-holder {
     margin-top: 60px;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .single .nav-links {
     margin: 50px 0;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .comments-holder .pingback,
 .comments-holder .trackback {
     padding-bottom: 30px;
   }
-
+}
+@media screen and (max-width: 1300px) {
   .search .archive-title h1 span,
 .archive-title h1 span {
     display: inline-block;
@@ -25524,8 +25551,22 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
   margin: 0.25em;
   transition: all 0.5s ease;
 }
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap {
+    padding: 2.5em;
+  }
+}
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap {
+  border-top-left-radius: 5em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 7em;
   align-content: flex-start;
+}
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap {
+    padding: 1.5em 1em;
+  }
 }
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .network-container {
   overflow-x: hidden;
@@ -25659,10 +25700,21 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .tech-skill .tech-skill-item {
   max-height: 0.6em;
 }
+@media (max-width: 526px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .tech-skill .tech-skill-item {
+    max-height: 1em;
+    padding: 0.5em;
+  }
+}
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .tech-skill .tech-skill-item .tech-skill-fill {
   top: 0px;
   max-width: 9em;
   max-height: 0.6em;
+}
+@media (max-width: 526px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .tech-skill .tech-skill-item .tech-skill-fill {
+    min-height: 1em;
+  }
 }
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .skill-image {
   margin-bottom: 0.25em;
@@ -25795,10 +25847,20 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
   font-weight: 300;
   font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .special-widget-wrap {
+    padding: 0em;
+  }
+}
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .scrollable-area {
   max-height: 110vh;
   overflow-y: scroll;
   padding-right: 2.5em;
+}
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-element-populated-content {
+    padding: 3em 3em;
+  }
 }
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .facts-column-wrap {
   padding: 3em 6em;
@@ -25824,10 +25886,19 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
   flex-wrap: wrap;
   padding: 5em;
 }
-@media (max-width: 860px) {
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .tech-skills-column-wrap {
+    padding: 3em 3em 3em 1em;
+  }
+}
+@media (min-width: 767px) and (max-width: 860px) {
   html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .tech-skills-column-wrap .design-widget-wrap {
-    overflow-y: scroll;
     padding: 1em 3em;
+  }
+}
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .tech-skills-column-wrap .design-widget-wrap .design-widget-tech-skills {
+    padding: 1em 10em 0em 0em;
   }
 }
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .normal-row {
@@ -25835,6 +25906,9 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
 }
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .reverse {
   flex-direction: row-reverse;
+}
+html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .corrector {
+  flex-direction: column;
 }
 @media (max-width: 780px) {
   html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .reverse-mobile {
@@ -25880,6 +25954,13 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
 }
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .sections-controls .main-menu .menu-item:hover ::after {
   color: white;
+}
+@media (max-width: 767px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .sections-controls .main-menu .menu-item a {
+    padding: 0.7em;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 html .home .modal-section .modal .modal-dialog .modal-content {
   border-radius: 1em;

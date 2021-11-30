@@ -562,6 +562,9 @@ body.rtl .design-181 .design-element.design-element-22d6fdac {
     border-bottom-right-radius: 0.75em;
     border-top-left-radius: 0.75em;
     border-bottom-left-radius: 0.15em;
+    @media (max-width: 526px) {
+        min-height: 2em;
+    }
 }
 .design-181 .design-element.design-element-51c9fb72 .skill {
     background-color: #fff;

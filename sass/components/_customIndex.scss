@@ -106,6 +106,9 @@ html {
                                                 );
                                             }
                                             .design-column-wrap {
+                                                @media (max-width: 767px) {
+                                                    padding: 2.5em;
+                                                }
                                                 border-top-left-radius: 7em;
                                                 border-top-right-radius: 2em;
                                                 border-bottom-left-radius: 2em;
@@ -113,7 +116,14 @@ html {
                                                 margin: 0.25em;
                                                 transition: all 0.5s ease;
                                                 .design-widget-wrap {
+                                                    border-top-left-radius: 5em;
+                                                    border-top-right-radius: 2em;
+                                                    border-bottom-left-radius: 2em;
+                                                    border-bottom-right-radius: 7em;
                                                     align-content: flex-start;
+                                                    @media (max-width: 767px) {
+                                                        padding: 1.5em 1em;
+                                                    }
                                                     .design-element {
                                                         .design-widget-container {
                                                             .network-container {
@@ -317,10 +327,17 @@ html {
                                                                         max-height: 0.75em;
                                                                         .tech-skill-item {
                                                                             max-height: 0.6em;
+                                                                            @media (max-width: 526px) {
+                                                                                max-height: 1em;
+                                                                                padding: 0.5em;
+                                                                            }
                                                                             .tech-skill-fill {
                                                                                 top: 0px;
                                                                                 max-width: 9em;
                                                                                 max-height: 0.6em;
+                                                                                @media (max-width: 526px) {
+                                                                                    min-height: 1em;
+                                                                                }
                                                                             }
                                                                         }
                                                                     }
@@ -544,10 +561,20 @@ html {
                                                         }
                                                     }
                                                 }
+                                                .special-widget-wrap {
+                                                    @media (max-width: 767px) {
+                                                        padding: 0em;
+                                                    }
+                                                }
                                                 .scrollable-area {
                                                     max-height: 110vh;
                                                     overflow-y: scroll;
                                                     padding-right: 2.5em;
+                                                }
+                                            }
+                                            .design-element-populated-content {
+                                                @media (max-width: 767px) {
+                                                    padding: 3em 3em;
                                                 }
                                             }
                                             .facts-column-wrap {
@@ -578,11 +605,20 @@ html {
                                                 overflow: visible;
                                                 flex-wrap: wrap;
                                                 padding: 5em;
+                                                @media (max-width: 767px) {
+                                                    padding: 3em 3em 3em 1em;
+                                                }
 
                                                 .design-widget-wrap {
-                                                    @media (max-width: 860px) {
-                                                        overflow-y: scroll;
+                                                    @media (min-width: 767px) and (max-width: 860px) {
                                                         padding: 1em 3em;
+                                                    }
+
+                                                    .design-widget-tech-skills {
+                                                        @media (max-width: 767px) {
+                                                            padding: 1em 10em
+                                                                0em 0em;
+                                                        }
                                                     }
                                                 }
                                             }
@@ -593,6 +629,9 @@ html {
                                     }
                                     .reverse {
                                         flex-direction: row-reverse;
+                                    }
+                                    .corrector {
+                                        flex-direction: column;
                                     }
                                     .reverse-mobile {
                                         @media (max-width: 780px) {
@@ -651,6 +690,13 @@ html {
                                             }
                                             ::after {
                                                 color: white;
+                                            }
+                                        }
+                                        a {
+                                            @media (max-width: 767px) {
+                                                padding: 0.7em;
+                                                text-align: center;
+                                                margin: 0 auto;
                                             }
                                         }
                                     }
