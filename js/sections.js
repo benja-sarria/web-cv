@@ -101,17 +101,71 @@ const listenHover = () => {
             setTimeout(() => {
                 holder.children[child].style.opacity = "1";
             }, 200);
-            holder.children[child].style.minWidth =
-                getTextWidth(
-                    holder.children[child].children[0].innerText,
-                    getCanvasFontSize(holder.children[child].children[0])
-                ) >=
-                16 * 11.5
-                    ? `${getTextWidth(
-                          holder.children[child].children[0].innerText,
-                          getCanvasFontSize(holder.children[child].children[0])
-                      )}px`
-                    : "11.5em";
+            if (screen.width > 435) {
+                holder.children[child].style.minWidth =
+                    getTextWidth(
+                        holder.children[child].children[0].innerText,
+                        getCanvasFontSize(holder.children[child].children[0])
+                    ) >=
+                    16 * 11.5
+                        ? `${getTextWidth(
+                              holder.children[child].children[0].innerText,
+                              getCanvasFontSize(
+                                  holder.children[child].children[0]
+                              )
+                          )}px`
+                        : "11.5em";
+            } else if (screen.width <= 435 && screen.width > 365) {
+                holder.children[child].style.minWidth =
+                    getTextWidth(
+                        holder.children[child].children[0].innerText,
+                        getCanvasFontSize(holder.children[child].children[0])
+                    ) <
+                    16 * 9.5
+                        ? `${getTextWidth(
+                              holder.children[child].children[0].innerText,
+                              getCanvasFontSize(
+                                  holder.children[child].children[0]
+                              )
+                          )}px`
+                        : "9.5em";
+                if (
+                    getTextWidth(
+                        holder.children[child].children[0].innerText,
+                        getCanvasFontSize(holder.children[child].children[0])
+                    ) <
+                    16 * 9.5
+                ) {
+                    holder.children[child].classList.add("small-desc");
+                } else {
+                    holder.children[child].classList.add("big-desc");
+                }
+            } else {
+                holder.children[child].style.minWidth =
+                    getTextWidth(
+                        holder.children[child].children[0].innerText,
+                        getCanvasFontSize(holder.children[child].children[0])
+                    ) <
+                    16 * 8.5
+                        ? `${getTextWidth(
+                              holder.children[child].children[0].innerText,
+                              getCanvasFontSize(
+                                  holder.children[child].children[0]
+                              )
+                          )}px`
+                        : "8.5em";
+                if (
+                    getTextWidth(
+                        holder.children[child].children[0].innerText,
+                        getCanvasFontSize(holder.children[child].children[0])
+                    ) <
+                    16 * 8.5
+                ) {
+                    holder.children[child].classList.add("small-desc");
+                } else {
+                    holder.children[child].classList.add("big-desc");
+                }
+            }
             techSkillsColumn.style.outline = "solid #020202C9 90em";
             techSkillsColumn.style.transition = "outline 500ms ease-in-out";
             backDrop.style.opacity = "1";
@@ -119,6 +173,17 @@ const listenHover = () => {
                         -webkit-backdrop-filter: blur(7px); */
         });
         holder.addEventListener("mouseleave", () => {
+            if (
+                holder.children[child].classList.contains("big-desc") ||
+                holder.children[child].classList.contains("small-desc")
+            ) {
+                if (holder.children[child].classList.contains("big-desc")) {
+                    holder.children[child].classList.remove("big-desc");
+                } else {
+                    holder.children[child].classList.remove("small-desc");
+                }
+            }
+            holder.children[child].style.minWidth = "revert";
             holder.children[child].style.removeProperty("opacity");
             setTimeout(() => {
                 holder.children[child].style.removeProperty("display");

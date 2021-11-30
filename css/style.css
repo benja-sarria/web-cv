@@ -25732,6 +25732,12 @@ html .home .page .one-page-content-wrapper .design .design-inner .design-section
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container:hover .skill-image {
   z-index: 3;
 }
+@media (max-width: 436px) {
+  html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .big-desc h3 {
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
 html .home .page .one-page-content-wrapper .design .design-inner .design-section-wrap .design-section .design-container .design-row .design-column .design-column-wrap .design-widget-wrap .design-element .design-widget-container .tech-skills .skill-container .description-holder {
   opacity: 0;
   display: none;

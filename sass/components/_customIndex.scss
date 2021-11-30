@@ -370,6 +370,14 @@ html {
                                                                             z-index: 3;
                                                                         }
                                                                     }
+                                                                    .big-desc {
+                                                                        h3 {
+                                                                            @media (max-width: 436px) {
+                                                                                line-height: 1.5em;
+                                                                                margin-bottom: 1.5em;
+                                                                            }
+                                                                        }
+                                                                    }
                                                                     .description-holder {
                                                                         opacity: 0;
                                                                         display: none;
